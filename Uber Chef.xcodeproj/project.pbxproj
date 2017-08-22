@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D9A0251F4BB31400438734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A0241F4BB31400438734 /* AppDelegate.swift */; };
+		46D9A0271F4BB31400438734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A0261F4BB31400438734 /* ViewController.swift */; };
+		46D9A02A1F4BB31400438734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D9A0281F4BB31400438734 /* Main.storyboard */; };
+		46D9A02D1F4BB31400438734 /* Uber_Chef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A02B1F4BB31400438734 /* Uber_Chef.xcdatamodeld */; };
+		46D9A02F1F4BB31400438734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D9A02E1F4BB31400438734 /* Assets.xcassets */; };
+		46D9A0321F4BB31400438734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D9A0301F4BB31400438734 /* LaunchScreen.storyboard */; };
+		46D9A03D1F4BB31400438734 /* Uber_ChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A03C1F4BB31400438734 /* Uber_ChefTests.swift */; };
+		46D9A0481F4BB31400438734 /* Uber_ChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D9A0391F4BB31400438734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D9A0191F4BB31400438734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D9A0201F4BB31400438734;
+			remoteInfo = "Uber Chef";
+		};
+		46D9A0441F4BB31400438734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D9A0191F4BB31400438734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D9A0201F4BB31400438734;
+			remoteInfo = "Uber Chef";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D9A0211F4BB31400438734 /* Uber Chef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Chef.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D9A0241F4BB31400438734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D9A0261F4BB31400438734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D9A0291F4BB31400438734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D9A02C1F4BB31400438734 /* Uber_Chef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Uber_Chef.xcdatamodel; sourceTree = "<group>"; };
+		46D9A02E1F4BB31400438734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D9A0311F4BB31400438734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D9A0331F4BB31400438734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D9A0381F4BB31400438734 /* Uber ChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber ChefTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D9A03C1F4BB31400438734 /* Uber_ChefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_ChefTests.swift; sourceTree = "<group>"; };
+		46D9A03E1F4BB31400438734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D9A0431F4BB31400438734 /* Uber ChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber ChefUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_ChefUITests.swift; sourceTree = "<group>"; };
+		46D9A0491F4BB31400438734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D9A01E1F4BB31400438734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D9A0351F4BB31400438734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D9A0401F4BB31400438734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D9A0181F4BB31400438734 = {
+			isa = PBXGroup;
+			children = (
+				46D9A0231F4BB31400438734 /* Uber Chef */,
+				46D9A03B1F4BB31400438734 /* Uber ChefTests */,
+				46D9A0461F4BB31400438734 /* Uber ChefUITests */,
+				46D9A0221F4BB31400438734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D9A0221F4BB31400438734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D9A0211F4BB31400438734 /* Uber Chef.app */,
+				46D9A0381F4BB31400438734 /* Uber ChefTests.xctest */,
+				46D9A0431F4BB31400438734 /* Uber ChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D9A0231F4BB31400438734 /* Uber Chef */ = {
+			isa = PBXGroup;
+			children = (
+				46D9A0241F4BB31400438734 /* AppDelegate.swift */,
+				46D9A0261F4BB31400438734 /* ViewController.swift */,
+				46D9A0281F4BB31400438734 /* Main.storyboard */,
+				46D9A02E1F4BB31400438734 /* Assets.xcassets */,
+				46D9A0301F4BB31400438734 /* LaunchScreen.storyboard */,
+				46D9A0331F4BB31400438734 /* Info.plist */,
+				46D9A02B1F4BB31400438734 /* Uber_Chef.xcdatamodeld */,
+			);
+			path = "Uber Chef";
+			sourceTree = "<group>";
+		};
+		46D9A03B1F4BB31400438734 /* Uber ChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D9A03C1F4BB31400438734 /* Uber_ChefTests.swift */,
+				46D9A03E1F4BB31400438734 /* Info.plist */,
+			);
+			path = "Uber ChefTests";
+			sourceTree = "<group>";
+		};
+		46D9A0461F4BB31400438734 /* Uber ChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */,
+				46D9A0491F4BB31400438734 /* Info.plist */,
+			);
+			path = "Uber ChefUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D9A0201F4BB31400438734 /* Uber Chef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D9A04C1F4BB31400438734 /* Build configuration list for PBXNativeTarget "Uber Chef" */;
+			buildPhases = (
+				46D9A01D1F4BB31400438734 /* Sources */,
+				46D9A01E1F4BB31400438734 /* Frameworks */,
+				46D9A01F1F4BB31400438734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber Chef";
+			productName = "Uber Chef";
+			productReference = 46D9A0211F4BB31400438734 /* Uber Chef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D9A0371F4BB31400438734 /* Uber ChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D9A04F1F4BB31400438734 /* Build configuration list for PBXNativeTarget "Uber ChefTests" */;
+			buildPhases = (
+				46D9A0341F4BB31400438734 /* Sources */,
+				46D9A0351F4BB31400438734 /* Frameworks */,
+				46D9A0361F4BB31400438734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D9A03A1F4BB31400438734 /* PBXTargetDependency */,
+			);
+			name = "Uber ChefTests";
+			productName = "Uber ChefTests";
+			productReference = 46D9A0381F4BB31400438734 /* Uber ChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D9A0421F4BB31400438734 /* Uber ChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D9A0521F4BB31400438734 /* Build configuration list for PBXNativeTarget "Uber ChefUITests" */;
+			buildPhases = (
+				46D9A03F1F4BB31400438734 /* Sources */,
+				46D9A0401F4BB31400438734 /* Frameworks */,
+				46D9A0411F4BB31400438734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D9A0451F4BB31400438734 /* PBXTargetDependency */,
+			);
+			name = "Uber ChefUITests";
+			productName = "Uber ChefUITests";
+			productReference = 46D9A0431F4BB31400438734 /* Uber ChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D9A0191F4BB31400438734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aleksander Stefanovic";
+				TargetAttributes = {
+					46D9A0201F4BB31400438734 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					46D9A0371F4BB31400438734 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46D9A0201F4BB31400438734;
+					};
+					46D9A0421F4BB31400438734 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46D9A0201F4BB31400438734;
+					};
+				};
+			};
+			buildConfigurationList = 46D9A01C1F4BB31400438734 /* Build configuration list for PBXProject "Uber Chef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D9A0181F4BB31400438734;
+			productRefGroup = 46D9A0221F4BB31400438734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D9A0201F4BB31400438734 /* Uber Chef */,
+				46D9A0371F4BB31400438734 /* Uber ChefTests */,
+				46D9A0421F4BB31400438734 /* Uber ChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D9A01F1F4BB31400438734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D9A0321F4BB31400438734 /* LaunchScreen.storyboard in Resources */,
+				46D9A02F1F4BB31400438734 /* Assets.xcassets in Resources */,
+				46D9A02A1F4BB31400438734 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D9A0361F4BB31400438734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D9A0411F4BB31400438734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D9A01D1F4BB31400438734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D9A0271F4BB31400438734 /* ViewController.swift in Sources */,
+				46D9A0251F4BB31400438734 /* AppDelegate.swift in Sources */,
+				46D9A02D1F4BB31400438734 /* Uber_Chef.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D9A0341F4BB31400438734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D9A03D1F4BB31400438734 /* Uber_ChefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D9A03F1F4BB31400438734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D9A0481F4BB31400438734 /* Uber_ChefUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D9A03A1F4BB31400438734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D9A0201F4BB31400438734 /* Uber Chef */;
+			targetProxy = 46D9A0391F4BB31400438734 /* PBXContainerItemProxy */;
+		};
+		46D9A0451F4BB31400438734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D9A0201F4BB31400438734 /* Uber Chef */;
+			targetProxy = 46D9A0441F4BB31400438734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D9A0281F4BB31400438734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D9A0291F4BB31400438734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46D9A0301F4BB31400438734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D9A0311F4BB31400438734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D9A04A1F4BB31400438734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D9A04B1F4BB31400438734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D9A04D1F4BB31400438734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Uber Chef/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksstefanovic.Uber-Chef";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46D9A04E1F4BB31400438734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Uber Chef/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksstefanovic.Uber-Chef";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46D9A0501F4BB31400438734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Uber ChefTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksstefanovic.Uber-ChefTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uber Chef.app/Uber Chef";
+			};
+			name = Debug;
+		};
+		46D9A0511F4BB31400438734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Uber ChefTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksstefanovic.Uber-ChefTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uber Chef.app/Uber Chef";
+			};
+			name = Release;
+		};
+		46D9A0531F4BB31400438734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Uber ChefUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksstefanovic.Uber-ChefUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Uber Chef";
+			};
+			name = Debug;
+		};
+		46D9A0541F4BB31400438734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Uber ChefUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksstefanovic.Uber-ChefUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Uber Chef";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D9A01C1F4BB31400438734 /* Build configuration list for PBXProject "Uber Chef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D9A04A1F4BB31400438734 /* Debug */,
+				46D9A04B1F4BB31400438734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D9A04C1F4BB31400438734 /* Build configuration list for PBXNativeTarget "Uber Chef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D9A04D1F4BB31400438734 /* Debug */,
+				46D9A04E1F4BB31400438734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D9A04F1F4BB31400438734 /* Build configuration list for PBXNativeTarget "Uber ChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D9A0501F4BB31400438734 /* Debug */,
+				46D9A0511F4BB31400438734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D9A0521F4BB31400438734 /* Build configuration list for PBXNativeTarget "Uber ChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D9A0531F4BB31400438734 /* Debug */,
+				46D9A0541F4BB31400438734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46D9A02B1F4BB31400438734 /* Uber_Chef.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46D9A02C1F4BB31400438734 /* Uber_Chef.xcdatamodel */,
+			);
+			currentVersion = 46D9A02C1F4BB31400438734 /* Uber_Chef.xcdatamodel */;
+			path = Uber_Chef.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46D9A0191F4BB31400438734 /* Project object */;
+}
