@@ -15,6 +15,7 @@
 		46D9A0321F4BB31400438734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D9A0301F4BB31400438734 /* LaunchScreen.storyboard */; };
 		46D9A03D1F4BB31400438734 /* Uber_ChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A03C1F4BB31400438734 /* Uber_ChefTests.swift */; };
 		46D9A0481F4BB31400438734 /* Uber_ChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */; };
+		46D9A0561F4CF48E00438734 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46D9A0551F4CF48E00438734 /* Montserrat-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		46D9A0431F4BB31400438734 /* Uber ChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber ChefUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_ChefUITests.swift; sourceTree = "<group>"; };
 		46D9A0491F4BB31400438734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D9A0551F4CF48E00438734 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../Downloads/montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		46D9A0181F4BB31400438734 = {
 			isa = PBXGroup;
 			children = (
+				46D9A0571F4CF50700438734 /* Resources */,
 				46D9A0231F4BB31400438734 /* Uber Chef */,
 				46D9A03B1F4BB31400438734 /* Uber ChefTests */,
 				46D9A0461F4BB31400438734 /* Uber ChefUITests */,
@@ -126,6 +129,14 @@
 				46D9A0491F4BB31400438734 /* Info.plist */,
 			);
 			path = "Uber ChefUITests";
+			sourceTree = "<group>";
+		};
+		46D9A0571F4CF50700438734 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46D9A0551F4CF48E00438734 /* Montserrat-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D9A0561F4CF48E00438734 /* Montserrat-Regular.ttf in Resources */,
 				46D9A0321F4BB31400438734 /* LaunchScreen.storyboard in Resources */,
 				46D9A02F1F4BB31400438734 /* Assets.xcassets in Resources */,
 				46D9A02A1F4BB31400438734 /* Main.storyboard in Resources */,
