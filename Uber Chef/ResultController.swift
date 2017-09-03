@@ -8,12 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ResultController: UIViewController {
+    @IBOutlet weak var testLabel: UILabel!
+    var stringPassed = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        testLabel.text = stringPassed
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -16,6 +16,8 @@
 		46D9A03D1F4BB31400438734 /* Uber_ChefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A03C1F4BB31400438734 /* Uber_ChefTests.swift */; };
 		46D9A0481F4BB31400438734 /* Uber_ChefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */; };
 		46D9A0561F4CF48E00438734 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46D9A0551F4CF48E00438734 /* Montserrat-Regular.ttf */; };
+		46D9A05B1F563CD600438734 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A05A1F563CD600438734 /* NavController.swift */; };
+		46D9A05D1F5796D800438734 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9A05C1F5796D800438734 /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		46D9A0471F4BB31400438734 /* Uber_ChefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_ChefUITests.swift; sourceTree = "<group>"; };
 		46D9A0491F4BB31400438734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D9A0551F4CF48E00438734 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../Downloads/montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		46D9A05A1F563CD600438734 /* NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		46D9A05C1F5796D800438734 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				46D9A0301F4BB31400438734 /* LaunchScreen.storyboard */,
 				46D9A0331F4BB31400438734 /* Info.plist */,
 				46D9A02B1F4BB31400438734 /* Uber_Chef.xcdatamodeld */,
+				46D9A05A1F563CD600438734 /* NavController.swift */,
+				46D9A05C1F5796D800438734 /* ResultController.swift */,
 			);
 			path = "Uber Chef";
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 			files = (
 				46D9A0271F4BB31400438734 /* ViewController.swift in Sources */,
 				46D9A0251F4BB31400438734 /* AppDelegate.swift in Sources */,
+				46D9A05D1F5796D800438734 /* ResultController.swift in Sources */,
 				46D9A02D1F4BB31400438734 /* Uber_Chef.xcdatamodeld in Sources */,
+				46D9A05B1F563CD600438734 /* NavController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

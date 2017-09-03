@@ -42,5 +42,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>chefs</key>
+    <array>
+        <string>Gordon Ramsay</string>
+        <string>Paul Bocuse</string>
+        <string>Anthony Bourdain</string>
+        <string>Marco Pierre White</string>
+    </array>
 </dict>
 </plist>
