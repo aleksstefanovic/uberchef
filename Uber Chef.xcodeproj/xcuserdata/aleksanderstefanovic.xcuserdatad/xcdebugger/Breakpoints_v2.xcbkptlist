@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Uber Chef/ViewController.swift"
+            timestampString = "526348286.23399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "showNearbyChefs(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Uber_Chef.ViewController.showNearbyChefs (Any) -&gt; ()"
+                  moduleName = "Uber Chef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksanderstefanovic/Desktop/Uber%20Chef/Uber%20Chef/ViewController.swift"
+                  timestampString = "526348473.700469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Uber_Chef.ViewController.showNearbyChefs (Any) -&gt; ()"
+                  moduleName = "Uber Chef"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksanderstefanovic/Desktop/Uber%20Chef/Uber%20Chef/ViewController.swift"
+                  timestampString = "526348473.70499"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "455">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

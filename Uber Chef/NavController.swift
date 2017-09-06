@@ -11,10 +11,15 @@ import UIKit
 class NavController: UIViewController {
     @IBOutlet weak var searchText: UITextField!
     
+    @IBAction func exitNav(_ sender: Any) {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        navigationController?.pushViewController(myVC, animated: true)
+    }
+    
     @IBAction func searchChefs(_ sender: Any) {
         let myVC = storyboard?.instantiateViewController(withIdentifier: "ResultController") as! ResultController
-        myVC.stringPassed = searchText.text!
-        navigationController?.show(myVC, sender: NavController.self)
+        myVC.searchText = searchText.text!
+        navigationController?.pushViewController(myVC, animated: true)
     }
     
     override func viewDidLoad() {
