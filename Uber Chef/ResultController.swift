@@ -29,13 +29,13 @@ class ResultController: UIViewController {
     
     func getChefs () {
         print("GETTING CHEFS");
-        self.save (name: "Gordon Ramsay", phone: "613-555-0108")
-        self.save (name: "Heston Blumenthal", phone: "613-555-0195")
-        self.save (name: "Massimo Bottura", phone: "613-555-0116")
-        self.save (name: "René Redzepi", phone: "613-555-0123")
+        self.save (name: "Gordon Ramsay", phone: "613-555-0108", lat: 37.792961, lng: -122.413175)
+        self.save (name: "Heston Blumenthal", phone: "613-555-0195", lat: 37.803962, lng: -122.403175)
+        self.save (name: "Massimo Bottura", phone: "613-555-0116", lat: 37.782963, lng: -122.433175)
+        self.save (name: "René Redzepi", phone: "613-555-0123", lat: 37.772964, lng: -122.393175)
     }
     
-    func save(name: String, phone: String) {
+    func save(name: String, phone: String, lat: Float, lng: Float) {
         //print("saving chef");
         guard let appDelegate =
             UIApplication.shared.delegate as? AppDelegate else {
@@ -54,6 +54,9 @@ class ResultController: UIViewController {
         
         chef.setValue(name, forKeyPath: "name")
         chef.setValue(phone, forKeyPath: "phone")
+        chef.setValue(lat, forKeyPath: "lat")
+        chef.setValue(lng, forKeyPath: "lng")
+
         
         do {
             try managedContext.save()
