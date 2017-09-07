@@ -21,9 +21,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Your explanation</string>
+	<string>To show where nearby chefs are</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your explanation</string>
+	<string>To show where nearby chefs are</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

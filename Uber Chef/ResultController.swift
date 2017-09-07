@@ -11,7 +11,7 @@ import CoreData
 
 class ResultController: UIViewController {
     
-    let cellIdentifier = "CellIdentifier"
+    let cellIdentifier = "Cell"
     var searchText = ""
     var chefs: [NSManagedObject] = []
     
@@ -21,11 +21,10 @@ class ResultController: UIViewController {
         super.viewDidLoad()
         //print("FINAL Chefs are ", chefs);
         tableView.register(UITableViewCell.self,
-                                  forCellReuseIdentifier: "Cell")
+                                  forCellReuseIdentifier: cellIdentifier)
     }
     
     func getChefs () {
-        print("GETTING CHEFS");
         self.save (name: "Gordon Ramsay", phone: "613-555-0108", lat: 37.792961, lng: -122.413175)
         self.save (name: "Heston Blumenthal", phone: "613-555-0195", lat: 37.803962, lng: -122.403175)
         self.save (name: "Massimo Bottura", phone: "613-555-0116", lat: 37.782963, lng: -122.433175)
@@ -82,9 +81,9 @@ class ResultController: UIViewController {
             print("fetching chefs and loading")
             chefs = try managedContext.fetch(fetchRequest)
             
-            //getChefs();
+            chefs = [];
+            getChefs();
             print ("Chefs are ", chefs);
-            print("FINISHED GETTING ALL CHEFS");
             self.tableView.reloadData()
             
         } catch let error as NSError {
@@ -100,32 +99,27 @@ class ResultController: UIViewController {
 
 extension ResultController: UITableViewDataSource {
     
-    
     func tableView(_ tableView: UITableView,
                    numberOfRowsInSection section: Int) -> Int {
-        print ("Chef count is ", chefs.count);
-        //return chefs.count
-        return 10;
+        //print ("Chef count is ", chefs.count);
+        return chefs.count
     }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1;
-    }
-    
+    // MARK: - UITableViewDataSource
     func tableView(_ tableView: UITableView,
                    cellForRowAt indexPath: IndexPath)
         -> UITableViewCell {
             
-            /*print ("adding to table")
             let chef = chefs[indexPath.row]
             let cell =
-                tableView.dequeueReusableCell(withIdentifier: "Cell",
+                tableView.dequeueReusableCell(withIdentifier: cellIdentifier,
                                               for: indexPath)
             cell.textLabel?.text = chef.value(forKeyPath: "name") as? String
-            print("Returning table cell")*/
-            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
-            cell.textLabel?.text = "i a test"
-            return cell
+            return cell;
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print(chefs[indexPath.row])
     }
 }
 

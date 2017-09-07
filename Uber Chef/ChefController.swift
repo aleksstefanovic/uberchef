@@ -12,10 +12,14 @@ import MessageUI
 class ChefController: UIViewController,  MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var chefName: UILabel!
+
+    let chefNameStr = ""
+    let chefPhoneStr = ""
+    let chefEmailStr = ""
     
     @IBAction func callChef(_ sender: Any) {
         print("Calling chef");
-        if let url = URL(string: "telprompt://1-613-555-0108"), UIApplication.shared.canOpenURL(url) {
+        if let url = URL(string: "telprompt://1-"+chefPhoneStr), UIApplication.shared.canOpenURL(url) {
             if #available(iOS 10, *) {
                 UIApplication.shared.open(url)
             } else {
@@ -23,7 +27,7 @@ class ChefController: UIViewController,  MFMailComposeViewControllerDelegate {
             }
         }
         else {
-            showPhoneCallFailed();
+            self.showPhoneCallFailed();
         }
     }
     
@@ -38,11 +42,10 @@ class ChefController: UIViewController,  MFMailComposeViewControllerDelegate {
     
     func configuredMailComposeViewController() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
-        mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
-        
-        mailComposerVC.setToRecipients(["someone@somewhere.com"])
-        mailComposerVC.setSubject("Sending you an in-app e-mail...")
-        mailComposerVC.setMessageBody("Sending e-mail in-app is not so bad!", isHTML: false)
+        mailComposerVC.mailComposeDelegate = self
+        mailComposerVC.setToRecipients([chefEmailStr])
+        mailComposerVC.setSubject("Chef Request")
+        mailComposerVC.setMessageBody("Someone is requesting immediate chef cooking skills", isHTML: false)
         
         return mailComposerVC
     }
