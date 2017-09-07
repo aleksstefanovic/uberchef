@@ -12,10 +12,12 @@ import MessageUI
 class ChefController: UIViewController,  MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var chefName: UILabel!
+    @IBOutlet weak var chefPhone: UILabel!
+    @IBOutlet weak var chefEmail: UILabel!
 
-    let chefNameStr = ""
-    let chefPhoneStr = ""
-    let chefEmailStr = ""
+    var chefNameStr = ""
+    var chefPhoneStr = ""
+    var chefEmailStr = ""
     
     @IBAction func callChef(_ sender: Any) {
         print("Calling chef");
@@ -67,6 +69,11 @@ class ChefController: UIViewController,  MFMailComposeViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        chefName.text = chefNameStr
+        chefPhone.text = chefPhoneStr
+        chefEmail.text = chefEmailStr
+
     }
     
     override func didReceiveMemoryWarning() {
